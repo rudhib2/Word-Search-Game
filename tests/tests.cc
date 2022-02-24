@@ -31,3 +31,14 @@
 TEST_CASE("True == True", "") { REQUIRE(true == true); }
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+TEST_CASE("Testing Out of Bounds", "[out of bounds]") {}
+
+TEST_CASE("Testing Horizontal", "[horz testing]") {}
+
+TEST_CASE("Testing Vertical", "[vert testing]") {}
+
+TEST_CASE("Testing Right Diag", "[right diag testing]") {}
+
+TEST_CASE("Testing Left Diag", "[left diag tetsing]") {}
+
+TEST_CASE("Testing No Word Found", "[empty wordloc]") {}

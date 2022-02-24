@@ -10,7 +10,8 @@ int main() {
                                         {'c', 'a', 'l', 'o', 'm'},
                                         {'a', 'e', 't', 'a', 'u'},
                                         {'t', 'e', 't', 'o', 'u'}};
-  // WordSearchSolver wss(puzzle);
-  // std::cout << wss.FindWord("hello", CheckDirection::kHorizontal);
+  WordSearchSolver wss(puzzle);
+  // std::cout << wss.FindWord("cat");
   // std::cout << wss.FindWord("hello");
+  std::cout << wss.FindWord("ao") << std::endl;
 }
